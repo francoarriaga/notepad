@@ -38,6 +38,7 @@ public class Notepad implements ActionListener{
     JMenuItem undo, redo;
     UndoManager um = new UndoManager();
     Function_Edit fe = new Function_Edit(this);
+    String meme;
     
     public static void main(String[] args) {
         new Notepad();
